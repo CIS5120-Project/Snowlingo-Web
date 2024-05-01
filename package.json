@@ -2,7 +2,7 @@
   "name": "landing-web",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://cis5120-project.github.io/home",
+  "homepage": "https://cis5120-project.github.io/Snowlingo-Web/",
   "dependencies": {
     "@emotion/react": "^11.11.4",
     "@emotion/styled": "^11.11.5",
