@@ -9,9 +9,9 @@ function App() {
       <Router>
         <div>
           <Routes>
-            <Route path="Snowlingo-Web/home" element={<Home />} />
-            <Route path="Snowlingo-Web/reflection" element={<Reflection />} />
-            <Route path="Snowlingo-Web/" element={<Home />} />
+            <Route path="/home" element={<Home />} />
+            <Route path="/reflection" element={<Reflection />} />
+            <Route path="/" element={<Home />} />
           </Routes>
         </div>
       </Router>

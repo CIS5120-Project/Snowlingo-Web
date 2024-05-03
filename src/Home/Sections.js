@@ -5,7 +5,8 @@ import NavigateNextIcon from '@mui/icons-material/NavigateNext';
 
 const images = [
   'https://snowlingo-images.s3.amazonaws.com/felipe-giacometti-FN4cCdslXuE-unsplash.jpg',
-  'https://snowlingo-images.s3.amazonaws.com/kira-laktionov-n9lNQ3O98k8-unsplash.jpg',
+  'https://snowlingo-images.s3.amazonaws.com/Vectary+texture.png',
+  "https://snowlingo-images.s3.amazonaws.com/resort_demo.png"
 ];
 
 function Sections () {
@@ -121,7 +122,7 @@ function Sections () {
           alt="Display"
           onLoad={handleImageLoad}
           className={loaded ? 'visible' : 'hidden'}
-          style={{"objectFit": "cover", width: '100%', height: '80%'}}
+          style={{"objectFit": "cover", width: '100%', height: '80%', minWidth: '300px'}}
         />
       </div>
     </div>
