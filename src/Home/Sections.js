@@ -122,7 +122,7 @@ function Sections () {
           alt="Display"
           onLoad={handleImageLoad}
           className={loaded ? 'visible' : 'hidden'}
-          style={{"objectFit": "cover", width: '100%', height: '80%', minWidth: '300px'}}
+          style={{"objectFit": "cover", width: '100%', height: '100%', minWidth: '300px'}}
         />
       </div>
     </div>

@@ -2,12 +2,14 @@ import React from "react";
 
 import KeyboardDoubleArrowDownIcon from '@mui/icons-material/KeyboardDoubleArrowDown';
 import { Typography, Button } from '@mui/material';
+import { useNavigate } from 'react-router-dom';
 
 import Navbar from '../Components/Navbar'
 import Sections from './Sections'
 import DesignProcess from './DesignProcess'
 
 function Home (){
+  const navigate = useNavigate();
   const handleScroll = () => {
     window.scrollBy({
       top: window.innerHeight,
@@ -39,7 +41,10 @@ function Home (){
                 className="w-48 h-16"
                 variant="contained"
                 style={{"backgroundColor": "#15F5BA", "color": "#211951", "fontWeight": "bold"}}
-              >Check Designs</Button>
+                onClick={() => { navigate('/reflection') }}
+              >
+                Check Designs
+              </Button>
             </div>
           </div>
         </div>
